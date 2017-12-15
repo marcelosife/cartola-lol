@@ -6,18 +6,21 @@ class Player extends Component {
         return (
         <div className="Player">
             <div className="Player-photo">
-                <img src={this.props.photo}  alt="Photo" />
+                <img src={this.props.photo} alt={this.props.name} />
             </div>
             <div className="Player-info">
-                <h1 className="Player-name">#{this.props.name}</h1>
-                <p >
-                {this.props.age}
-                </p>
+                <span className="Player-name">{this.props.name} "{this.props.nickname}" {this.props.lastname}</span>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>Age:</td><td>{this.props.age}</td>
+                            <td>Team:</td><td>{this.props.teamName}</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
             <div className="Player-cost">                
-                <p >
-                {this.props.cost}
-                </p>
+                {this.props.cost}                
             </div>
         </div>
         );

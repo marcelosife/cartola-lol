@@ -2,33 +2,18 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
 .App-header {
   background-color: #222;
-  height: 150px;
+  height: 50px;
   padding: 20px;
   color: white;
-}
-
-.App-title {
-  font-size: 1.5em;
 }
 
 .App-intro {
   font-size: large;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
-
-.Player{
-  display :inline-block;
+.Player{  
   margin: 10px;
   border: 1px solid #eee;
   box-shadow: 1px 2px 2px 1px #cccccc;
@@ -45,13 +30,39 @@
   height: 110px;
 }
 
-
 .Player-info{
   float: left;
   height: 100%;
+  margin: 10px 10px 0 10px;  
 }
 
 .Player-cost{
   float: right;
-  height: 100%;
+  margin: 40px 10px 0 0;  
+  color: #ffca00;
+}
+
+.Player-name{
+  font-weight: bold;  
+}
+
+
+.Players-title{
+  font-weight: bold;  
+  font-size:14pt;
+}
+
+.Players{
+  width: 631px;
+  float: right;
+  margin-top: 10px;
+}
+
+.MyTeam{
+  float: left;  
+  width: 700px;
+  height: 500px;
+  margin: 10px 0 0 10px;
+  border: 1px solid #eee;
+  box-shadow: 1px 2px 2px 1px #ccc;
 }
