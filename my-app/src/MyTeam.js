@@ -1,15 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
 
-class MyTeam extends Component {    
-
-    render() {
-        return (
+const MyTeam = (props) => {  
+    return (   
         <div className="MyTeam">
             <div className="MyTeam-title">My Team</div>
         </div>
-        );
-    }
+    );    
 }
 
 export default MyTeam;
