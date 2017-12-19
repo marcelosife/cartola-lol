@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
 
 const Player = (props) => {  
 return (   
-    <div className="Player">
+    <div className="Player" onClick={() => props.click(props) }>
         <div className="Player-photo">
             <img src={props.photo} alt={props.name} />
         </div>

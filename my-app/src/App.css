@@ -17,7 +17,7 @@
   margin: 10px;
   border: 1px solid #eee;
   box-shadow: 1px 2px 2px 1px #cccccc;
-  width: 600px;
+  width: 500px;
   height: 110px;
 }
 .Player-photo{
@@ -53,16 +53,38 @@
 }
 
 .Players{
-  width: 631px;
+  width: 520px;
   float: right;
   margin-top: 10px;
 }
 
+.Players .Player:hover{
+  border: 1px solid rgb(191, 235, 255);
+  box-shadow: 1px 1px 1px 1px rgb(191, 235, 255);
+}
+
 .MyTeam{
   float: left;  
-  width: 700px;
-  height: 500px;
+  width: 800px;
+  height: 400px;
   margin: 10px 0 0 10px;
   border: 1px solid #eee;
   box-shadow: 1px 2px 2px 1px #ccc;
+}
+
+.MyPlayer{
+  background: #ccc;
+  width: 17%;
+  margin: 10px;
+  height: 150px;
+  float: left;
+  position: relative;
+  border: 1px solid #eee;
+  box-shadow: 1px 2px 2px 1px #ccc;
+}
+
+.MyTeam .MyPlayer:hover{
+  width: 20%;
+  margin: 1px;
+  height: 170px; 
 }
